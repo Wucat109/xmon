@@ -117,8 +117,9 @@
     bash xmon.sh
 
 ### 使用 curl 一行直接运行
-
-    bash <(curl -fsSL https://raw.githubusercontent.com/Wucat109/xmon/main/xmon.sh)
+```
+curl -fsSL -o xmon.sh https://raw.githubusercontent.com/Wucat109/xmon/main/xmon.sh && chmod +x xmon.sh && bash xmon.sh
+```
 
 ### 使用 wget 一行直接运行
 
